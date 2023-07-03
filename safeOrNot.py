@@ -1,3 +1,10 @@
+# here I grab a bunch of url's to stack exchange articles and their titles and send them through the /predict endpoint of fastAPI which=
+# predicts whether or not the article and or other parts of it are safe for work. My goal here was to understand how to send a post request
+# to an API through python as well as understand how to parse the json information that is sent back.
+
+# TO DO:
+#     output NSFW words, if there are any, as a list that is easy to read instaed of json
+
 # import libraries
 import requests
 import json
